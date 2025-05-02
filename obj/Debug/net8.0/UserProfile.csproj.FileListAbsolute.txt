@@ -88,3 +88,4 @@ C:\Repo\NETCORE\API\UserProfile\bin\Debug\net8.0\runtimes\browser\lib\net8.0\Sys
 C:\Repo\NETCORE\API\UserProfile\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Repo\NETCORE\API\UserProfile\obj\Debug\net8.0\UserProfile.csproj.AssemblyReference.cache
 C:\Repo\NETCORE\API\UserProfile\obj\Debug\net8.0\UserProf.52510F9C.Up2Date
+C:\Repo\NETCORE\API\UserProfile\obj\Debug\net8.0\UserProfile.sourcelink.json
