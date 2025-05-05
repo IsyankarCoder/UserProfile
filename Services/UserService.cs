@@ -28,7 +28,7 @@ _userProfileContext =UserProfileContext;
 
         public async Task<UserModel?> DeleteUser(int id)
         {
-           var user = GetUserDetail(id);
+           var user = await GetUserDetail(id);
            if(user is null) return null;
 
            _userProfileContext.Remove(user);
