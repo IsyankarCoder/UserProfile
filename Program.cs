@@ -16,7 +16,7 @@ builder.Services.AddDbContext<UserProfileContext>(
       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
       options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 
-  },ServiceLifetime.Transient 
+  },ServiceLifetime.Scoped 
 );
 
 builder.Services.AddTransient<IUserService,UserService>();

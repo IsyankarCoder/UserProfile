@@ -50,7 +50,7 @@ _userProfileContext =UserProfileContext;
 
         public async Task<UserModel?> UpdateUser(UserModel userModel)
         {
-           var user = GetUserDetail(userModel.Id);
+           var user = await GetUserDetail(userModel.Id);
            if(user is null) return null;
            _userProfileContext.Update(userModel);
            await _userProfileContext.SaveChangesAsync();
