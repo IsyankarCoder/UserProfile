@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using UserProfile.DataBase;
 using UserProfile.Interfaces;
 using UserProfile.Models;
